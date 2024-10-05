@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="game sty.css">
+</head>
+<body>
+        <!-- الهيدر -->
+        <header>
+            <div class="logo">
+                <img src="final logo.png" alt="Logo" />
+            </div>
+            <nav class="nav-links">
+                <a href="home.html">Home</a>
+                <a href="GAME.html">Games</a>
+                <a href="#game">Educational Content</a>
+                <a href="#game" style="padding-right: 70px;">Support</a>
+
+            </nav>
+            
+        </header>
+    <br><BR><BR><BR>
+  
+    <br><br>
+    <div id="game-board" style="padding-left: 100px;" >
+        <!-- كروت اللعبة -->
+        <div class="card" data-info="Reflection: When light hits something like a mirror, it can bounce back.
+        ">
+            <img src="Reflection.jpeg" alt="Image 1" class="front">
+            <div class="back"></div>
+        </div>
+        <div class="card" data-info="Refraction:
+         When light travels from air to water, it can be bent like we put a pen in a cup of water.
+        ">
+            <img src="water.jpeg" alt="Image 1" class="front">
+            <div class="back"></div>
+        </div>
+        <div class="card" data-info="Refraction: When light moves from air to water, it can bend, like when we put a pencil in a glass of water.">
+            <img src="water.jpeg" alt="Image 1" class="front">
+            <div class="back"></div>
+        </div>
+        <div class="card" data-info="The PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) satellite is a NASA space mission designed to study Earth's oceans and atmosphere, aimed at understanding the effects of climate change on the global ecosystem and analyzing air and ocean quality.">
+            <img src="pace2.jpeg" alt="Image 1" class="front">
+            <div class="back"></div>
+        </div>
+        <div class="card" data-info="PACE utilizes advanced imaging technologies to monitor the oceans, providing valuable insights into biodiversity, the distribution of marine organisms, and surface water conditions">
+            <img src="perimeter.jpeg" alt="Image 1" class="front">
+            <div class="back"></div>
+        </div>
+        <div class="card" data-info="Reflection: When light hits something like a mirror, it can bounce back.">
+            <img src="Reflection.jpeg" alt="Image 1" class="front">
+            <div class="back"></div>
+        </div>
+        <div class="card" data-info="The PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) satellite is a NASA space mission designed to study Earth's oceans and atmosphere, aimed at understanding the effects of climate change on the global ecosystem and analyzing air and ocean quality.">
+            <img src="pace2.jpeg" alt="Image 1" class="front">
+            <div class="back"></div>
+        </div>
+        <div class="card" data-info="PACE utilizes advanced imaging technologies to monitor the oceans, providing valuable insights into biodiversity, the distribution of marine organisms, and surface water conditions">
+            <img src="perimeter.jpeg" alt="Image 1" class="front">
+            <div class="back"></div>
+        </div>
+        <!-- أضف المزيد من الكروت بنفس الطريقة -->
+    </div>        <!-- الكروت سيتم إضافتها هنا بواسطة JavaScript -->
+    </div>
+      <!-- صندوق المعلومات الذي يظهر بعد المطابقة -->
+      <div id="info-box" style="display: none;">
+        <p id="info-text"></p>
+        <button id="close-btn">X</button>
+    </div>
+
+    <script src="game java.js"></script>
+</body>
+</html>
